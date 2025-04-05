@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Fotos</title>
+    <script src="script/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#racas">Raças</a></li>
+            <li><a href="#dicas">Dicas</a></li>
+            <li><a href="#contato">Contato</a></li>
+            
+        </ul>
+    </nav>
+    
+    <section>
+    <h1>Galeria de Fotos</h1>
+    <div id="galeria"></div>
+    
+    </section>
+
+    <section class="racas" id="racas">
+        <h2 class="titulo-racas">Informações de Raças </h2>
+        <p class="paragrafo-racas"  id="infoRaca">Clique no botão abaixo para saber mais informações sobre a raça.</p>
+        <button class="botao-raca" onclick="exibirRaca('Labrador')">Raça labrador</button>
+        <button class="botao-raca" onclick="exibirRaca('Golden Retriever')">Raca Golden </button>
+        <button class="botao-raca" onclick="exibirRaca('Poodle')">Raça Poodle</button>
+        <button class="botao-raca" onclick="exibirRaca('BullDog')">Raça BullDog</button>
+        <button class="botao-raca" onclick="exibirRaca('Pastor Alemão')">Raça Pastor Alemão</button>
+    </section>
+
+</body>
+</html>
